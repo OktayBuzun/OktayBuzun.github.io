@@ -1,0 +1,150 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background: rgba(88, 4, 4, 0.712);
+    font-family: 'Play', sans-serif;
+}
+
+header {
+    display: flex;
+    background: transparent;
+    width: 80%;
+    margin: auto;
+    height: auto;
+    align-items: center;
+    font-size: 30px;
+    background: linear-gradient(to right, #c85858, #ffffff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.title {
+    display: flex;
+    flex: 2;
+}
+
+.title h1 {
+    font-size: 60px;
+    font-weight: 600;
+}
+
+.email {
+    display: flex;
+    flex: 1;
+    justify-content: end;
+}
+
+.email a {
+    text-decoration: none;
+    margin-left: 10px;
+    margin-top: 34px;
+}
+
+.email a:hover {
+    opacity: 0.3;
+}
+
+.cv {
+    margin-top: 30px;
+    color: white;
+    background: rgba(66, 1, 66, 0.384);
+    display: flex;
+}
+
+.writing {
+    margin-left: 10px;
+    flex: 1;
+    width: auto;
+    height: auto;
+}
+
+.profilepic {
+    flex: 1;
+}
+
+.profilepic img {
+    height: 400px;
+    width: 400px;
+    justify-content: space-around;
+    margin-left: 100px;
+}
+
+.hobbies {
+    list-style: none;
+    margin-left: 30px;
+    flex: 1;
+}
+
+.gallery {
+    background: palegoldenrod;
+}
+
+.gallery img:hover {
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+-->footer {
+    display: flex;
+    width: 100%;
+    margin: auto;
+    left: 0;
+    bottom: 0;
+    position: fixed;
+    justify-content: space-around;
+    background: rgba(82, 3, 3, 0.664);
+}
+
+.fa {
+    padding: 18px;
+    font-size: 20px;
+    width: auto;
+    height: auto;
+    text-align: center;
+    text-decoration: none;
+    margin: auto;
+    border-radius: 50%;
+    flex: 1;
+    justify-content: space-around;
+}
+
+.fa:hover {
+    opacity: 0.5;
+}
+
+.fa-facebook {
+    background: #0b2b70;
+    color: white;
+}
+
+.fa-instagram {
+    background: #a11515;
+    color: white;
+}
+
+.fa-linkedin {
+    background: #1798d4;
+    color: white;
+}
+
+.fa-twitter {
+    background: #507fa3;
+    color: white;
+}
+
+.copyright p {
+    color: white;
+    font-size: larger;
+}
+
+@media screen and (max-width: 1024px) {
+    header,
+    body,
+    footer {
+        flex-direction: column;
+    }
+}
